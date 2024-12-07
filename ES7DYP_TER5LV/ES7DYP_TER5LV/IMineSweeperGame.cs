@@ -8,5 +8,8 @@
         bool IsGameOver();
         bool IsGameWon();
         void PrintBoard();
+        void MoveSelection(int deltaX, int deltaY);
+        bool RevealSelectedField();
+        void FlagSelectedField();
     }
 }

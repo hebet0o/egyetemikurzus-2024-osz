@@ -6,6 +6,7 @@
         bool IsMine { get; set; }
         bool IsRevealed { get; set; }
         bool IsFlagged { get; set; }
+        bool Selected { get; set; }
         int AdjacentMines { get; set; }
     }
 }
