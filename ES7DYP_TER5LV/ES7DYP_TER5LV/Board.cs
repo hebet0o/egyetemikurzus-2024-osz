@@ -5,10 +5,10 @@ using System.Linq;
 
 namespace ES7DYP_TER5LV
 {
-    internal class Board : IBoard
+    public class Board : IBoard
     {
-        private List<IField> fields;
-        private Random random;
+        private readonly List<IField> fields;
+        private readonly Random random;
 
         public int Width { get; }
         public int Height { get; }
